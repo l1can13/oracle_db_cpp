@@ -1,17 +1,17 @@
 #include "mainwindow.h"
 
 #include <QApplication>
-//#include <Qsql>
+#include <QSqlDatabase>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-//    QSqlDatabase db = QsqlDatabase::addDatabase("QMYSQL", "mydb");
-//    db.setHostName("bigblue");
-//    db.setDatabaseName("flightdb");
-//    db.setUserName("acarlson");
-//    db.setPassword("1uTbSbAs");
+    QSqlDatabase db = QSqlDatabase::addDatabase("QODBC", "mydb");
+    db.setHostName("bigblue");
+    db.setDatabaseName("flightdb");
+    db.setUserName("acarlson");
+    db.setPassword("1uTbSbAs");
 
     MainWindow w;
     w.show();
