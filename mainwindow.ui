@@ -20,7 +20,7 @@
       <x>80</x>
       <y>60</y>
       <width>761</width>
-      <height>481</height>
+      <height>471</height>
      </rect>
     </property>
    </widget>
@@ -47,7 +47,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Обновить строчку</string>
+     <string>Обновить таблицу</string>
     </property>
    </widget>
    <widget class="QPushButton" name="delete_button">
@@ -84,6 +84,19 @@
       <width>131</width>
       <height>21</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="file_button">
+    <property name="geometry">
+     <rect>
+      <x>619</x>
+      <y>20</y>
+      <width>221</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить файл с данной таблицей</string>
     </property>
    </widget>
   </widget>
